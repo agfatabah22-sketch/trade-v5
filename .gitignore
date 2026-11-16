@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+/config.lua
+/config.local.lua
+/*Config*Loader*.lua
+/account.txt
+/accounts.txt
+/deployment-backups/
+*.zip
+*.local.lua
