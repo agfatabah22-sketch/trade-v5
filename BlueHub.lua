@@ -1620,6 +1620,8 @@ return function(d)
             labels={'No','Yes'},response='No'},
         {action='spawn_okay',text='You can change this option any time in your settings.',
             labels={'Okay'},response='Okay'},
+        {action='spawn_no',text='Kamu sering memilih opsi ini! Mau ke sana terus?',
+            labels={'Tidak','Ya'},response='Tidak'},
     }
     local function path(root,names)
         local value=root
